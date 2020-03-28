@@ -1,0 +1,58 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/main/main",
+			"style": {
+				"navigationBarTitleText": "维修管理系统"
+			}
+		},
+		{
+			"path": "pages/main/equipmentquery",
+			"style": {
+				"navigationBarTitleText": "设备查询"
+			}
+		},
+		{
+			"path": "pages/main/workorder",
+			"style": {
+				"navigationBarTitleText": "我的工单"
+			}
+		},
+		{
+			"path": "pages/main/serviceinform",
+			"style": {
+				"navigationBarTitleText": "服务通知单"
+			}
+		},
+		{
+			"path": "pages/main/serviceresults",
+			"style": {
+				"navigationBarTitleText": "维修结果"
+			}
+		},
+		{
+			"path": "pages/order/orderdetail",
+			"style": {
+				"navigationBarTitleText": "工单信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-field": "/wxcomponents/vant/field/index",
+			"van-button": "/wxcomponents/vant/button/index",
+			"van-panel": "/wxcomponents/vant/panel/index",
+			"van-icon": "/wxcomponents/vant/icon/index"
+		  }
+	}
+}
